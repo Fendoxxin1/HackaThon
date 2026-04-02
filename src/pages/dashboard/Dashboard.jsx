@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import styles from "./dashboard.module.css";
 const Dashboard = () => {
-  return (
-    <div>Dashboard</div>
-  )
-}
+    return (
+        <div className={styles.container}>
+            <h1>Dashboard</h1>
+        </div>
+    );
+};
 
-export default Dashboard
+export default Dashboard;

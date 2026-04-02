@@ -2,7 +2,7 @@ import style from "./transaction.module.css";
 
 const Transaction = () => {
     return (
-        <section>
+        <section className={style.container}>
             <div>
                 <div>
                     {" "}

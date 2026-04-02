@@ -16,17 +16,21 @@ function Sidebar() {
             <ul>
                 <li className={`${styles.active}`}>
                     <img src="./sidebarDashboard.png" alt="sidebarDashboard.png" className="icon" />{" "}
-                    <a className={`${styles.active}`} href="/">
+                    <NavLink to="/" className={styles.active}>
                         Dashboard
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
                     <img src="./Transactions.svg" alt="Transactions.png" />{" "}
-                    <NavLink to="/transactions">Transactions</NavLink>
+                    <NavLink to="/transactions" className={styles.active}>
+                        Transactions
+                    </NavLink>
                 </li>
                 <li>
                     <img src="./UserList.svg" alt="Transactions.png" className="icon" />{" "}
-                    <NavLink to="/usermanagement">User List</NavLink>
+                    <NavLink to="/usermanagement" className={styles.active}>
+                        User List
+                    </NavLink>
                 </li>
             </ul>
         </div>
