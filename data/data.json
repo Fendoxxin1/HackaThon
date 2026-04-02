@@ -1,0 +1,27 @@
+{
+    "transactions": [
+        {
+            "id": "0",
+            "date": "04.02.2026",
+            "description": "Office rent",
+            "type": true,
+            "amount": "12.500"
+        }
+    ],
+    "users": [
+        {
+            "id": "0",
+            "fullName": "Marchus",
+            "email": "exampl@gmail.com",
+            "onboardingDate": "",
+            "role": "admin"
+        },
+        {
+            "fullName": "Michael",
+            "email": "exampl@gmail.com",
+            "onboardingDate": "",
+            "role": "editor",
+            "id": "a64f"
+        }
+    ]
+}
