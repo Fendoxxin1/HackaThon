@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    padding: 1.6rem 3.2rem 1.6rem 33rem;
+    justify-content: space-between;
+
+    
+    .search {
+        padding: 1rem 1.6rem;
+        border-radius: 3rem;
+        background: #EFF4FF;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .searchIcon {
+            font-size: 1.8rem;
+            color: #3D4A3D;
+        }
+
+        input {
+            border: none;
+            background: #EFF4FF;
+            width: 44rem;
+            outline: none;
+            font-size: 1.6rem;
+        }
+
+    }
+    .userProfile {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+
+        .firstname {
+            color: #0B1C30;
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+            font-weight: 700;
+        }
+
+        .userLevel{
+            line-height: 2rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #3D4A3D;
+        }
+    }
+}
+
