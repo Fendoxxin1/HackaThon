@@ -1,12 +1,13 @@
 import React from 'react'
-import { IoSearch } from "react-icons/io5";
+// import { IoSearch } from "react-icons/io5";
 import styles from "./Header.module.css"
+// import { IoSearch } from 'react-icons/io5'
 
 function Header() {
   return (
     <header>
         <div className={styles.search}>
-            <IoSearch  className={styles.searchIcon}/>
+            {/* <IoSearch  className={styles.searchIcon}/> */}
              <input type="search" placeholder='Search transactions, assets, or users...'/> 
 
         </div>
